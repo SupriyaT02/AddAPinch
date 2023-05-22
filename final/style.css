@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+    padding: 0%;
+  font-family: 'poppins',sans-serif;
+}
+body{
+    text-align: center;
+    background-color: #000;
+    
+}
+.header {
+    padding: 0 4.8rem;
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+  }
+.header p{
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 100;
+}
+  .header .logo {
+    height: 3rem;
+  }
+.navbar-list {
+    display: flex;
+    gap: 4.8rem;
+    list-style: none;
+  }
+  
+  .navbar-link:link,
+  .navbar-link:visited {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 100;
+    color: #fff;
+    transition: all 0.3s;
+  }
+  
+  .navbar-link:hover,
+  .navbar-link:active {
+    color: red;
+  }
+  .mobile-navbar-btn {
+    display: none;
+    background: transparent;
+    cursor: pointer;
+  }
+  
+  .mobile-nav-icon {
+    width: 3rem;
+    height: 3rem;
+    color: #fff;
+  }
+  
+  .mobile-nav-icon[name="close-outline"] {
+    display: none;
+  }
+  
+.area{
+    width: 100%;
+    height: 50rem;
+    top: 100px;
+    background-image: url(milk.webp);
+    -webkit-box-size:cover;
+    background-position: center;
+}
+.area h2{
+    padding-top: 8%;
+    font-size: 70px;
+    font-family: poppins;
+    text-transform: uppercase;
+    color: #fff;
+}
+.par{
+    padding-top: 2%;
+}
+.content{
+    width: 100%;
+    position: relative;
+    background: #000;
+   
+}
+.content h2{
+    text-align: center;
+    text-shadow: red;
+    font-size: 32px;
+    color: #fff;
+    font-family: bold;
+    padding-top: 2%;
+}
+.content p{
+    color: #fff;
+
+}
+.log{
+    padding-top: 0%;
+    background-color: #000;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    
+}
+ .box{
+    border-radius: 25px;
+    background-color: #262626;
+    background-image: url(noodle.webp);
+    width: 380px;
+    height: 400px;
+    margin: 7% auto;
+
+}
+.log h2{
+    padding: 30px 30px;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+}
+.main{
+    font-size: 20px;
+    color: white;
+}
+.main{
+    text-align: center;
+}
+.main input, button{
+    width: 300px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: voilet;
+    margin-bottom: 40PX;
+}
+.main span{
+    position: relative;
+}
+.main button{
+    padding-left: 0;
+    background-color: pink;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: 45px;
+    
+}
+.main i{
+    position:absolute;
+    left: 15px;
+    color: red;
+    font-size: 16px;
+    top:2px
+}
+.main button:hover{
+    box-shadow: 20x 20x 5px #fff;
+    background-color: rgba(0,0,0,0.6);
+}
+.main input:hover{
+    box-shadow: 20x 20x 5px #555;
+    background-color: #ddd;
+}
+
+
+.sigbox{
+    border-radius: 25px;
+    background-color: #262626;
+    background-image: url(noodle.webp);
+    width: 380px;
+    height: 500px;
+    margin: 7% auto;
+
+}
+.sigmain{
+    font-size: 20px;
+    color: white;
+}
+.sigmain{
+    text-align: center;
+}
+.sigmain input, button{
+    width: 300px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: #4527a0;
+    margin-bottom: 40PX;
+}
+.sigmain span{
+    position: relative;
+}
+.sigmain button{
+    padding-left: 0;
+    background-color: lightpink;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: 35px;
+    
+}
+.sigmain i{
+    position:absolute;
+    left: 15px;
+    color: red;
+    font-size: 16px;
+    top:2px;
+}
+.sigmain button:hover{
+    box-shadow: 20x 20x 5px #fff;
+    background-color: rgba(0,0,0,0.9);
+}
+.sigmain input:hover{
+    box-shadow: 20x 20x 5px #555;
+    background-color: #ddd;
+}
+.boxx{
+    color: white;
+    box-sizing: border-box;
+    width: 380px;
+    margin: 5% auto;
+    border-radius: 25px;
+    background-color: #333;
+   /* box-shadow:0 0 20px #666; */
+    text-align: center;
+    padding-top: 20px;
+}
+
+/*
+nav{
+    padding: 0 2%;
+    font-size: 20px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-links{
+    display: flex;
+}
+.nav ul li{
+    justify-content: center;
+    list-style: none;
+    padding: 10px 30px;
+
+}
+.nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+*/
+/*
+nav{
+    width: 100%;
+    height: 75px;
+    background-color: #333;
+    line-height: 75px;
+    padding: 0px 80px;
+}
+nav .logo{
+    float: left;
+}
+nav .logo p{
+    font-size: 34px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    color: #fff;
+    text-transform: uppercase;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 20px;
+}
+nav ul li a:hover{
+     color: red;
+}
+.pic{
+    background-size: contain;
+    border: solid 2px red;
+
+}
+.text p{
+    
+    color: aliceblue;
+    font-size: 25px;
+    position: fixed;
+    padding: 6% 10px 10px;
+}
+*/
+@media (max-width: 62em) {
+    .mobile-navbar-btn {
+      display: block;
+      z-index: 999;
+      border: 3px solid #212529;
+      color: #212529;
+    }
+  
+    .header {
+      position: relative;
+    }
+  
+    .header .logo {
+      width: 40%;
+    }
+  
+    .navbar {
+      /* display: none; */
+      width: 100%;
+      height: 100vh;
+      background: #000;
+      position: absolute;
+      top: 0;
+      left: 0;
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      /* to get the tranisition  */
+      transform: translateX(100%);
+      transition: all 0.5s linear;
+  
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+  
+    .navbar-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .active .navbar {
+      transform: translateX(0);
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+    }
+  
+    .active .mobile-navbar-btn .mobile-nav-icon[name="close-outline"] {
+      display: block;
+    }
+  
+    .active .mobile-navbar-btn .mobile-nav-icon[name="menu-outline"] {
+      display: none;
+    }
+  }
+  
+  /* Below 560px  */
+  @media (max-width: 35em) {
+    .header {
+      padding: 0 2.4rem;
+    }
+  
+    .header .logo {
+      width: 60%;
+    }
+}
+
+.Top{
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+    line-height: 1;
+    text-shadow: var(--text-shadow);
+    margin-bottom: 32px;
+    margin-top: 1%;
+}
+.Container{
+    position: relative;
+    width: auto;
+    padding: 10px;
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+.contents h2{
+    color: rgb(209, 19, 209);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Container .card{
+    position: relative;
+    width: 300px;
+    height: 520px;
+    background: #fff;
+    margin: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.3s;
+    overflow-y:visible;
+}
+.Container:hover .card{
+    filter: blur(1.5px);
+    transform: scale(0.9);
+    opacity: 0.5;
+}
+.Container .card:hover{
+    filter: blur(0px);
+    transform: scale(1.0);
+    opacity: 1;
+}
+.Container .card .circle{
+    position: relative;
+    width: 100%;
+
+    background: var(--green);
+    clip-path: circle(180px at center 0);
+    text-align: center;
+    color: #fff;
+}
+.Container .card .circle img{
+    width: 100%;
+    height: 200px;
+}
+.Container .card .contents{
+    align-items: center;
+}
+.Container .card .contents p{
+    text-align: left;
+    padding: 10% 9%;
+    align-items: left;
+    
+}
+.contents > ol{
+text-align:left;
+margin-top: 0;
+padding-left: 7%;
+padding-right: 5%;
+}
+
+
+
